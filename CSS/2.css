@@ -1,0 +1,62 @@
+:root{
+    --purple1:#C8B0D9;
+    --purple2:#723FA6;
+    --green:#A6A15D;
+    --orange:#F28322;
+    --brown:#8C655D;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+header{
+    background-image: url("../IMG/kelpie3.png"), url("../IMG/australian-kelpie-white-wall.jpg"), url("../IMG/australian-kelpies-white-isolated.jpg");
+    background-size: contain, contain, contain;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center, left, right;
+}
+
+.antraste{
+    color: var(--purple1);
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    padding: 4rem 7rem 10rem 7rem;
+    text-align:center;
+}
+.container{
+    background-color: rgba(242, 131, 34, 0.5);
+}
+
+nav{
+    background-color: var(--brown);
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding: 2em;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--orange);
+    
+}
+
+i{
+    color: var(--orange);
+    text-align: center;
+}

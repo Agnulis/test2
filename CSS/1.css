@@ -1,0 +1,12 @@
+div{
+    width: 50vw;
+    min-height: 50vh;
+    background-image: url("../IMG/kelpie.jpg"), url("../IMG/photo-1.jpg"), url("../IMG/kelpie2.png");
+    background-size: 10%, auto, 30%;
+    background-repeat: no-repeat;
+    background-position-x: center, center, 4rem;
+    background-position-y: 15rem, 10rem, 4rem;
+    background-color: thistle;
+    
+}
+
